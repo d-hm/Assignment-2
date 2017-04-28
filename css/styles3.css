@@ -1,0 +1,63 @@
+title{
+  display: none;
+}
+.center-div
+{
+     margin: 0 auto;
+     max-width: 700px;
+     min-width: 100px;
+     
+}
+img, p, div {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+html, body, #wrapper {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   text-align: justify;
+}
+.FadeOut {
+    -webkit-animation: fadeout 60s ease-in 1 forwards;
+    -moz-animation: fadeout 60s ease-in 1 forwards;
+    animation: fadeout 60s ease-in 1 forwards;
+}
+
+@-webkit-keyframes fadeout {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes fadeout {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes fadeout {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.FadeIn{
+    -webkit-animation: fadein 60s ease-in 1 forwards;
+    -moz-animation: fadein 60s ease-in 1 forwards;
+    animation: fadein 60s ease-in 1 forwards;
+}
+
+@-webkit-keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+body {
+    background-color: black;
+}

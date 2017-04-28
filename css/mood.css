@@ -1,0 +1,51 @@
+/* mood.css */
+
+body {
+  background-color: white;
+  animation-name: pulse;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+  /*overflow-x: hidden;*/
+}
+
+@keyframes pulse {
+  74.99%   {background-color:white}
+  75%  {background-color: rgb(253, 253, 253)}
+  87.5%  {background-color:white}
+  100%  {background-color: rgb(253, 253, 253)}
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-item {
+  display: block;
+  /*margin: 5% 0 5% 0;*/
+}
+
+/*#flex-item-1 img {
+  padding: 0 0 0 10%;
+}
+
+#flex-item-2 img {
+  padding: 0 0 0 2%;
+}
+
+#flex-item-3 img {
+  padding: 0 0 0 50%;
+}
+
+#flex-item-4 img {
+  padding: 0 0 0 24%;
+}
+
+#flex-item-5 img {
+  padding: 0 0 0 5%;
+}*/

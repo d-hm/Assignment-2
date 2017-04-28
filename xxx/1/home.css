@@ -1,0 +1,69 @@
+/* Titles: Oswald Body: Merriweather
+   Color palette: FF0000, 00FF00, FFFF00, f3f3f3, 000000*/
+
+body {
+  background-image: url("backgroundsplat2.png");
+  background-color: white;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+}
+
+img {
+  filter: opacity(10%);
+}
+
+#global-nav {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10%;
+
+}
+
+.nav-item {
+  flex-shrink: 1;
+  padding: 50px;
+  font-weight: 300;
+}
+
+#nav-item-1 {
+  font-size: 1.2em;
+}
+
+ul {
+  list-style: none;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  color: #f3f3f3
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+  body {
+    background-size: 200%;
+  }
+  #global-nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+/*img {
+  max-width: 600px;
+  display: inline-flex;
+  flex-direction: column;
+
+}*/

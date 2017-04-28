@@ -1,0 +1,80 @@
+/* Project Page CSS */
+/* Body */
+
+body {
+    background-color: #ddeaff;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    color: black;
+    height:100%;
+    width: 100%;
+    padding: 0;
+    border: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-item {
+  display: block;
+  padding: 10% 0 0 0;
+  margin: 0 auto;
+}
+
+img, video {
+  display: block;
+  max-width: 95%;
+}
+
+h1 {
+  display: block;
+  font-family: "Arial Black","Arial Bold","Helvetica Neue",Helvetica,sans-serif;
+  font-size: 3em;
+  max-width: 400px;
+}
+
+h2 {
+  display: block;
+  text-align: left;
+  font-size: 2em;
+  max-width: 400px;
+}
+
+h3 {
+  display: block;
+  font-size: 1em;
+  max-width: 300px;
+}
+
+/* Link Styling */
+a:link {
+    color: black;
+    text-decoration: overline;
+}
+a:visited {
+    color: black;
+    text-decoration: overline;
+}
+a:hover {
+    color: black;
+    text-decoration: line-through;
+}
+a:active {
+    color: whitesmoke;
+}
+
+/* Global Nav */
+
+nav {
+  display: flex;
+  flex: row wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+
+}
